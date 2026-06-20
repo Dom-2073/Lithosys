@@ -19,6 +19,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.lithosys.lithosys_block"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModBlocks.LIMESTONE);
+                        output.accept(ModBlocks.GYPSUM);
                     })
                     .build());
 

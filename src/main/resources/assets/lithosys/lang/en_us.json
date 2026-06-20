@@ -1,4 +1,6 @@
 {
   "block.lithosys.limestone": "Limestone",
+  "block.lithosys.gypsum": "Gypsum",
+
   "creativetab.lithosys.lithosys_block": "Rocks"
 }

@@ -3,21 +3,25 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/block",
 	"textures": {
-		"0": "lithosys:block/limestone",
-		"particle": "lithosys:block/limestone"
+		"0": "lithosys:block/gypsum/gypsum_n",
+		"1": "lithosys:block/gypsum/gypsum_e",
+		"2": "lithosys:block/gypsum/gypsum_s",
+		"3": "lithosys:block/gypsum/gypsum_w",
+		"4": "lithosys:block/gypsum/gypsum_u",
+		"5": "lithosys:block/gypsum/gypsum_d",
+		"particle": "lithosys:block/gypsum/gypsum_n"
 	},
 	"elements": [
 		{
 			"from": [0, 0, 0],
 			"to": [16, 16, 16],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16, -16]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#5"}
 			}
 		}
 	],
