@@ -36,7 +36,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 @Mod(Lithosys.MODID)
 public class Lithosys {
     // Define mod id in a common place for everything to reference
-    public static final String MODID = "dom2073modlithosys";
+    public static final String MODID = "lithosys";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
 
