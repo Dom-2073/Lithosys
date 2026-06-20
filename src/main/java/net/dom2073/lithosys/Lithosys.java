@@ -1,5 +1,7 @@
 package net.dom2073.lithosys;
 
+import net.dom2073.lithosys.block.ModBlocks;
+import net.dom2073.lithosys.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -44,12 +46,15 @@ public class Lithosys {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
-
-
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
