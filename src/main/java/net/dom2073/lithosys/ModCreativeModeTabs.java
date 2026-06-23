@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
                     .displayItems((parameters, output) -> {
                         output.accept(ModBlocks.LIMESTONE);
                         output.accept(ModBlocks.GYPSUM);
+                        output.accept(ModBlocks.PERIDOTITE);
                     })
                     .build());
 

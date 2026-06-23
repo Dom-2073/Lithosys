@@ -2,6 +2,8 @@ package net.dom2073.lithosys;
 
 import net.dom2073.lithosys.block.ModBlocks;
 import net.dom2073.lithosys.item.ModItems;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;

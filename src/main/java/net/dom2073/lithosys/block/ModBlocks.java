@@ -4,8 +4,7 @@ import net.dom2073.lithosys.Lithosys;
 import net.dom2073.lithosys.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -19,13 +18,24 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> LIMESTONE = registerBlock("limestone",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CALCITE)));
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.CALCITE)));
 
-    public static final DeferredBlock<Block> GYPSUM = registerBlock("gypsum",
+    public static final DeferredBlock<HalfTransparentBlock> GYPSUM = registerBlock("gypsum",
+            () -> new HalfTransparentBlock(BlockBehaviour.Properties.of()
+                    .strength(1f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> PERIDOTITE =registerBlock("peridotite",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+                    .strength(7f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.DEEPSLATE)));
+    //TODO Fai altre texture di altre roccie poi passa agli ores
 
-    //Helper metho
+    //Helper method
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name,block);
         registerBlockItem(name,toReturn);
