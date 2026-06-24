@@ -18,7 +18,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> LIMESTONE = registerBlock("limestone",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f)
+                    .strength(2f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.CALCITE)));
 
@@ -28,11 +28,24 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)
                     .noOcclusion()));
+
     public static final DeferredBlock<Block> PERIDOTITE =registerBlock("peridotite",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(7f)
+                    .strength(5f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.DEEPSLATE)));
+
+    public static final DeferredBlock<Block> PUMICE =registerBlock("pumice",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(0.75f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.CALCITE)));
+
+    public static final DeferredBlock<Block> SALT_BLOCK =registerBlock("salt_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(0.75f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.SAND)));
     //TODO Fai altre texture di altre roccie poi passa agli ores
 
     //Helper method

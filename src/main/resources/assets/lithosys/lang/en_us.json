@@ -1,7 +1,12 @@
 {
+  "item.lithosys.salt": "Salt",
+
   "block.lithosys.limestone": "Limestone",
   "block.lithosys.gypsum": "Gypsum",
   "block.lithosys.peridotite" : "Peridotite",
+  "block.lithosys.pumice" : "Pumice",
+  "block.lithosys.salt_block" : "Block of Salt",
 
-  "creativetab.lithosys.lithosys_block": "Rocks"
+  "creativetab.lithosys.lithosys_block": "Rocks",
+  "creativetab.lithosys.lithosys_ores": "Ores"
 }

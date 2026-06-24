@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "lithosys:limestone",
+    "lithosys:gypsum",
+    "lithosys:pumice",
+    "lithosys:salt_block"
+  ]
+}
