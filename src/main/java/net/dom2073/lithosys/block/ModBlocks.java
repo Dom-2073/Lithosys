@@ -35,6 +35,12 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.DEEPSLATE)));
 
+    public static final DeferredBlock<Block> GNEISS =registerBlock("gneiss",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(5f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.DEEPSLATE)));
+
     public static final DeferredBlock<Block> PUMICE =registerBlock("pumice",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(0.75f)

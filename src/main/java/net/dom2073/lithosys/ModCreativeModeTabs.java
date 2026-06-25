@@ -25,6 +25,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.PERIDOTITE);
                         output.accept(ModBlocks.PUMICE);
                         output.accept(ModBlocks.SALT_BLOCK);
+                        output.accept(ModBlocks.GNEISS);
                     })
                     .build());
 

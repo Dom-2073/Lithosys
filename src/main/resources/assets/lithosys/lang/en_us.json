@@ -6,6 +6,7 @@
   "block.lithosys.peridotite" : "Peridotite",
   "block.lithosys.pumice" : "Pumice",
   "block.lithosys.salt_block" : "Block of Salt",
+  "block.lithosys.gneiss": "Gneiss",
 
   "creativetab.lithosys.lithosys_block": "Rocks",
   "creativetab.lithosys.lithosys_ores": "Ores"
