@@ -9,6 +9,7 @@
     "lithosys:gneiss",
     "lithosys:gabbro",
     "lithosys:marble",
-    "lithosys:schist"
+    "lithosys:schist",
+    "lithosys:diorite_copper_ore"
   ]
 }

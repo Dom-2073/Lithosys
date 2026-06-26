@@ -57,5 +57,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "lithosys:salt_block"
+  "random_sequence": "lithosys:blocks/salt_block"
 }
