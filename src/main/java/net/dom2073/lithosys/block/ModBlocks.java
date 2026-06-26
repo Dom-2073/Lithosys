@@ -39,7 +39,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(5f)
                     .requiresCorrectToolForDrops()
-                    .sound(SoundType.DEEPSLATE)));
+                    .sound(SoundType.STONE)));
 
     public static final DeferredBlock<Block> PUMICE =registerBlock("pumice",
             () -> new Block(BlockBehaviour.Properties.of()
@@ -52,7 +52,25 @@ public class ModBlocks {
                     .strength(0.75f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.SAND)));
-    //TODO Fai altre texture di altre roccie poi passa agli ores
+
+    public static final DeferredBlock<Block> GABBRO =registerBlock("gabbro",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1.5f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.BASALT)));
+
+    public static final DeferredBlock<Block> SCHIST =registerBlock("schist",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1.5f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.BASALT)));
+
+    public static final DeferredBlock<Block> MARBLE =registerBlock("marble",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1.5f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
 
     //Helper method
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

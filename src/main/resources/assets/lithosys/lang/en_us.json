@@ -7,6 +7,9 @@
   "block.lithosys.pumice" : "Pumice",
   "block.lithosys.salt_block" : "Block of Salt",
   "block.lithosys.gneiss": "Gneiss",
+  "block.lithosys.gabbro": "Gabbro",
+  "block.lithosys.marble": "Marble",
+  "block.lithosys.schist": "Schist",
 
   "creativetab.lithosys.lithosys_block": "Rocks",
   "creativetab.lithosys.lithosys_ores": "Ores"

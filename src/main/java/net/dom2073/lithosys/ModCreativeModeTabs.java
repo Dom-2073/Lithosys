@@ -26,6 +26,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.PUMICE);
                         output.accept(ModBlocks.SALT_BLOCK);
                         output.accept(ModBlocks.GNEISS);
+                        output.accept(ModBlocks.GABBRO);
+                        output.accept(ModBlocks.SCHIST);
+                        output.accept(ModBlocks.MARBLE);
                     })
                     .build());
 

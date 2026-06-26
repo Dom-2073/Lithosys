@@ -5,6 +5,10 @@
     "lithosys:gypsum",
     "lithosys:peridotite",
     "lithosys:pumice",
-    "lithosys:salt_block"
+    "lithosys:salt_block",
+    "lithosys:gneiss",
+    "lithosys:gabbro",
+    "lithosys:marble",
+    "lithosys:schist"
   ]
 }
