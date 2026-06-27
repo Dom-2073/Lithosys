@@ -30,6 +30,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SCHIST);
                         output.accept(ModBlocks.MARBLE);
                         output.accept(ModBlocks.DIORITE_COPPER_ORE);
+                        output.accept(ModBlocks.CASSITERITE_ORE);
                     })
                     .build());
 

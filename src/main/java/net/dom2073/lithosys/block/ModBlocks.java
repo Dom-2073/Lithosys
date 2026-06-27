@@ -77,6 +77,11 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.COPPER)));
 
+    public static final DeferredBlock<Block> CASSITERITE_ORE =registerBlock("cassiterite_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2.5f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.COPPER)));
 
     //Helper method
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
