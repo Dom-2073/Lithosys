@@ -71,7 +71,7 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)));
 
-    public static final DeferredBlock<Block> DIORITE_COPPER_ORE =registerBlock("diorite_copper_ore",
+    public static final DeferredBlock<Block> BASALT_COPPER_ORE =registerBlock("basalt_copper_ore",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(2.5f)
                     .requiresCorrectToolForDrops()

@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/block",
 	"textures": {
-		"0": "lithosys:block/diorite_copper_ore",
-		"particle": "lithosys:block/diorite_copper_ore"
+		"0": "lithosys:block/basalt_copper_ore",
+		"particle": "lithosys:block/basalt_copper_ore"
 	},
 	"elements": [
 		{

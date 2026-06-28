@@ -29,7 +29,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.GABBRO);
                         output.accept(ModBlocks.SCHIST);
                         output.accept(ModBlocks.MARBLE);
-                        output.accept(ModBlocks.DIORITE_COPPER_ORE);
+                        output.accept(ModBlocks.BASALT_COPPER_ORE);
                         output.accept(ModBlocks.CASSITERITE_ORE);
                     })
                     .build());
@@ -40,6 +40,17 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.lithosys.lithosys_ores"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.SALT);
+                        output.accept(ModItems.RAW_CASSITERITE);
+                    })
+                    .build());
+
+    public static final Supplier<CreativeModeTab> LITHOSYS_INGOT_TAB= CREATIVE_MODE_TAB.register("lithosys_ingot_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.TIN_INGOT.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(Lithosys.MODID,"lithosys_ores_tab"))
+                    .title(Component.translatable("creativetab.lithosys.lithosys_ores"))
+                    .displayItems((parameters, output) -> {
+                        output.accept(ModItems.TIN_INGOT);
+                        output.accept(ModItems.CRUDE_BRONZE_INGOT);
                     })
                     .build());
 

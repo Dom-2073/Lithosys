@@ -10,6 +10,7 @@
     "lithosys:gabbro",
     "lithosys:marble",
     "lithosys:schist",
-    "lithosys:diorite_copper_ore"
+    "lithosys:diorite_copper_ore",
+    "lithosys:cassiterite_ore"
   ]
 }
