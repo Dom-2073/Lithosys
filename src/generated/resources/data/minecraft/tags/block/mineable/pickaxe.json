@@ -1,0 +1,15 @@
+{
+  "values": [
+    "lithosys:basalt_copper_ore",
+    "lithosys:peridotite",
+    "lithosys:gabbro",
+    "lithosys:gneiss",
+    "lithosys:gypsum",
+    "lithosys:marble",
+    "lithosys:schist",
+    "lithosys:limestone",
+    "lithosys:cassiterite_ore",
+    "lithosys:salt_block",
+    "lithosys:pumice"
+  ]
+}

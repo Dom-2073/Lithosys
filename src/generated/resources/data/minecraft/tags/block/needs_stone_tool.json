@@ -1,0 +1,10 @@
+{
+  "values": [
+    "lithosys:marble",
+    "lithosys:limestone",
+    "lithosys:salt_block",
+    "lithosys:gypsum",
+    "lithosys:pumice",
+    "lithosys:cassiterite_ore"
+  ]
+}
